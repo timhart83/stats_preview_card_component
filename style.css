@@ -29,7 +29,7 @@ body {
 .stat-card {
     position: relative;
     display: flex;
-    width: 1000px;
+    width: 950px;
     height: 400px;
     background-color: hsl(244, 38%, 16%);
     border-radius: 10px;
@@ -42,7 +42,7 @@ body {
 .content {
     width: 45%;
     color: hsl(0, 0%, 100%);
-    padding: 4rem;
+    padding: 3.5rem;
 }
 
 .card-title {
@@ -78,8 +78,23 @@ body {
     letter-spacing: 1px;
 }
 
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(277, 64%, 50%, 0.6);
+}
+
 .card-image {
-    width: 55%;
+    height: 100%;
+
 }
 
 /* MEDIA QUERIES */
